@@ -6,4 +6,5 @@ var i = 0
     i++
   }
   katzDeliLine.push(name)
+  return "Welcome, "+name+" . You are number " + i + " in line.""
  }
