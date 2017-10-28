@@ -29,7 +29,7 @@ var name = ""
     for(var i=0;i<line.length;i++){
       if(i=line.length - 1 ){
       name = name + " " + (i+1) +". " +line[i]
-    } else{
+      } else{
       name = name + " " + (i+1) +". " +line[i] +","
       }
     }
