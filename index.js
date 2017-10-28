@@ -14,5 +14,12 @@ var i = 0
   for(var i = 0; i < katzDeliLine.length; i++){
       return "Welcome, "+name+". You are number " + (katzDeliLine.length-i)+ " in line."
    }
+}
 
+function nowServing(){
+  if(katzDeliLine.length=0){
+    return "There is nobody waiting to be served!"
+  }else{
+    
+  }
 }
