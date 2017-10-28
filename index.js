@@ -27,8 +27,12 @@ var name = ""
     return "The line is currently empty."
   }else {
     for(var i=0;i<line.length;i++){
+      if(i=line.length - 1 ){
       name = name + " " + (i+1) +". " +line[i]
+    } else{
+      name = name + " " + (i+1) +". " +line[i] +","
+      }
     }
-    return "The line is currently:" + name
+      return "The line is currently:" + name
   }
 }
