@@ -19,5 +19,6 @@ var i = 0
 function nowServing(katzDeliLine){
   do{
     return katzDeliLine[0]
+    katzDeliLine.shift()
   }while (katzDeliLine>0)
 }
