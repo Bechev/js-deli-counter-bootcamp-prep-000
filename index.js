@@ -6,5 +6,5 @@ function takeANumber(katzDeliLine, name){
 
    numberInLine++
   }while(numberInLine<katzDeliLine)
-  return numberInLine
+  return "Welcome, " +name+ ". You are number " + numberInLine +" in line."
 }
