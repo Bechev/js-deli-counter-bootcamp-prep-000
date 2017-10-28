@@ -28,6 +28,7 @@ var name = ""
   }else {
     for(var i=0;i<line.length;i++){
         name = name + " " + (i+1) +". " +line[i] +","
+      }
       return "The line is currently:" + name
   }
 }
