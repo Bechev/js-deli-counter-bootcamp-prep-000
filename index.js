@@ -1,10 +1,9 @@
 var katzDeli=[];
 
 function takeANumber(katzDeliLine, name){
- var numberInLine= 0
- do{
-
-   numberInLine++
-  }while(numberInLine<katzDeliLine)
-  return "Welcome, " +name+ ". You are number " + numberInLine +" in line."
-}
+var i = 0
+  while (i<katzDeliLine.length){
+    i++
+  }
+  katzDeliLine.push(name)
+ }
