@@ -28,9 +28,9 @@ var name = ""
   }else {
     for(var i=0;i<line.length;i++){
       if(i=line.length - 1 ){
-      name = name + " " + (i+1) +". " +line[i]
+        name = name + " " + (i+1) +". " +line[i]
       } else{
-      name = name + " " + (i+1) +". " +line[i] +","
+        name = name + " " + (i+1) +". " +line[i] +","
       }
     }
       return "The line is currently:" + name
