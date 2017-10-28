@@ -26,7 +26,7 @@ function currentLine(line){
     return "The line is currently empty."
   }else {
     for(var i=0;i<line.length;i++){
-      var name = (i+1) +". " +line[i]
+      var name = name + (i+1) +". " +line[i]
     }
     return "The line is currently: " + name
   }
