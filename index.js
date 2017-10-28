@@ -29,6 +29,6 @@ var name = ""
     for(var i=0;i<line.length;i++){
       name = name + " " + (i+1) +". " +line[i]
     }
-    return "The line is currently: " + name
+    return "The line is currently:" + name
   }
 }
